@@ -1,8 +1,11 @@
-from repo.lesson9 import b
-from misol.misol3 import dictionary
+
+# Lesson 6
+
+from repo.lesson9 import b , integer
+from misol.misol3 import dictionary , people
 from misol.misol4 import countries
 
-print(b,dictionary(),countries())
+print(b,dictionary(),countries(), integer(), people())
 
 
 a = input("Enter the first food: ")                # 1-misol
@@ -28,5 +31,30 @@ menu()
 
 
 
+numbers = [45,55,60,37,100,105,220]
+numbers[0],numbers[3]=numbers[3],numbers[0]
+print(numbers)
+
+
+
+
+
+
+         # Lesson 5
+def name():
+    names = ["Ali","Vali","Hasan","Husan","Olim"]          # 1- misol
+    for name in names:
+        if name == "Ali":
+            print(f"Salom {name}")
+        elif name == "Vali":
+            print(f"Salom {name}")
+        elif name == "Hasan":
+            print(f"Salom {name}")
+        elif name == "Husan":
+            print(f"Salom {name}")
+        elif name == "Olim":
+            print(f"Salom {name}")
+    print(f"Kod {len(names)} marta qaytarilgan")
+name()
 
 

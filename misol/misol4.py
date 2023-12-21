@@ -1,3 +1,5 @@
+
+# Lesson 6
 def countries():
     countries = {      # 4-misol
         "AQSH ": "WASHINGTON",
